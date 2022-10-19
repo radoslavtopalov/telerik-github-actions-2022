@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-    - 'factorial.py'
+    - 'factorial.py' # limits the workflow (pipeline) run when pushed to the listed files but not to any push
     - 'lint_test.py'
     
 jobs:
