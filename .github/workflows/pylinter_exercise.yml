@@ -1,4 +1,4 @@
-name: Github-action-practice
+name: paylint-test
 
 on:
   push:
