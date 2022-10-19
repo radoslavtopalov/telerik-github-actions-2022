@@ -2,7 +2,7 @@ name: paylint-test
 
 on:
   push:
-    branches: [ our-first-pipeline ]
+    branches: [ main ]
     paths:
     - 'factorial.py'
     - 'lint_test.py'
